@@ -17,11 +17,11 @@ let when = ['before the class', 'right on time', 'when I finished', 'during my l
 
 let excuse = document.querySelector("#excuse");
 
-window.onload = function() () {
-  let randWho = who[ Math.floor(Math.Random() *who.length)];
-  let randAct = action[ Math.floor(Math.Random() *action.length)];
-  let randWhat = what[ Math.floor(Math.Random() * what.length)];
-  let randWhen = when[ Math.floor(Math.Random() *when.length)];
+window.onload = function() {
+  let randWho = who[ Math.floor(Math.randomndom() *who.length)];
+  let randAct = action[ Math.floor(Math.random() *action.length)];
+  let randWhat = what[ Math.floor(Math.random() * what.length)];
+  let randWhen = when[ Math.floor(Math.random() *when.length)];
   
   
   return (`randWho +randAct +randWhat +randWhen`)
